@@ -11,6 +11,7 @@ public class MultiThreadServer {
 	// 메인 함수
 	public static void main(String[] args) {
 		
+		new MultiThreadServer();
 		System.out.println("===== 서버 실행 =====");
 		
 		// 서버측 소켓을 만들기 위한 준비물
